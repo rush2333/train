@@ -1,0 +1,28 @@
+.form{
+    display: flex;
+}
+.form-group{
+    display: flex;
+    margin-bottom: 25px;
+}
+.form-horizontal{
+    flex-direction: row;
+}
+.form-vertical{
+    flex-direction: column;
+}
+.form-group .form-label{
+    flex-grow: 0;
+    flex-shrink: 0;
+    line-height: 28px;
+    height: 28px;
+    margin-right: 10px;
+    font-weight: normal;
+    text-align: right;
+}
+.form-group .form-detail{
+    line-height: 28px;
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+}

@@ -1,0 +1,12 @@
+.q-cropper-width, .q-cropper-height{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+.q-cropper-width img{
+    width: 155px;
+}
+.q-cropper-height img{
+    height: 155px;
+}

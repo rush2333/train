@@ -1,0 +1,143 @@
+.phone{
+    border-radius: 6px;
+    width: 300px;
+}
+.phone-container{
+    background: #f7f7f7;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 6px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.phone-header{
+    width: 300px;
+    height: 38px;
+    background: url("../../../images/topbar.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.phone-content{
+    margin: -15px 10px;
+    border-radius: 6px;
+    height: 522px;
+
+    overflow-y: scroll;
+}
+.q-bare{
+    width: 100%;
+    height: 15px;
+    background: #f7f7f7;
+}
+.phone-content::-webkit-scrollbar{
+    width: 0;
+}
+.phone-pane{
+    margin-bottom: 15px;
+}
+.summary-header{
+    border-bottom: 1px dashed #e9e9e9;
+    background: #fff;
+    border-radius: 6px;
+}
+.phone-logo-container{
+    height: 39px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.phone-logo-content{
+    width: 100%;
+    height: 39px;
+    position: absolute;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.phone-logo-content .phone-logo{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+    left: 0;
+}
+.summary-title, .detail-title{
+    line-height: 28px;
+    text-align: center;
+    padding: 10px 0;
+    height: 48px;
+    overflow: hidden;
+}
+.summary-title{
+    font-weight: 500;
+    font-size: 16px;
+}
+.detail-title{
+    font-size: 14px;
+    font-weight: normal;
+}
+.summary-main{
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px;
+}
+.msg-group{
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.msg-group:last-of-type{
+    margin-bottom: 0;
+}
+.msg-group .msg-label{
+    font-weight: 600;
+    margin-right: 6px;
+    line-height: 24px;
+    height: 24px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.msg-group .msg-detail{
+    line-height: 16px;
+    margin-top: 4px;
+    display: flex;
+    width: 100%;
+}
+.msg-btn{
+    position: relative;
+    right: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.msg-area{
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 10px;
+}
+.detail-header{
+    background: #ffffff;
+    border-bottom: 1px solid  #e9e9e9;
+}
+.detail-main{
+    height: 180px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 6px;
+    overflow-y: auto;
+}
+.phone-btn-pane{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 10px;
+    background: #f7f7f7;
+    border-radius: 6px;
+}
+.phone-btn-pane button{
+    width: 100%;
+}

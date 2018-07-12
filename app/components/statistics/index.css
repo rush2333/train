@@ -1,0 +1,18 @@
+.q-statistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.q-statistics-item{
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+.q-statistics-item .q-item-label{
+
+}
+.q-statistics-item .q-item-detail{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.75);
+}

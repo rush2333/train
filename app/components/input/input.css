@@ -1,0 +1,38 @@
+.q-input{
+    width: inherit;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.q-invalid > .ant-input{
+    border-color: #f04134;
+}
+.q-invalid > .ant-input:hover, .q-invalid > .ant-input:focus{
+    box-shadow: 0 0 0 2px rgba(240,65,52,.2);
+}
+
+.q-msg-block{
+    width: inherit;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 100;
+}
+
+.q-error-msg, .q-help-msg {
+    width: inherit;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    padding-left: 8px;
+    line-height: 16px;
+}
+.q-error-msg{
+    color: #f04134;
+    background: #fff;
+    /*background-color: #f7f7f7;*/
+}
+.q-help-msg{
+    color: rgba(0,0,0,0.45);
+    background: inherit;
+}

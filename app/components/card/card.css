@@ -1,0 +1,19 @@
+.q-card-container{
+    margin-top: 15px;
+    background-color: #f7f7f7;
+}
+.q-card-container:last-of-type{
+    margin-bottom: 15px;
+}
+/*
+    修改antd默认样式
+*/
+.q-card-container .ant-card{
+    background-color: inherit;
+}
+.q-card-container .ant-card-head{
+    background-color: inherit;
+}
+.q-card-container .ant-card-body{
+    background-color: #fff;
+}

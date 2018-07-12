@@ -1,0 +1,9 @@
+.q-page-footer{
+    width: 100%;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+}
+.q-page-footer button{
+    margin-left: 20px;
+}

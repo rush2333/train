@@ -1,0 +1,43 @@
+.q-header{
+    height: 64px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0;
+}
+.q-header-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+}
+.q-header-logo{
+    background: url("../../../images/logo.svg") no-repeat ;
+    background-size: cover;
+    height: 64px;
+    width: 118px;
+}
+.q-header-platform{
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 14px 25px;
+    padding: 0 25px;
+    height: 36px;
+    line-height: 36px;
+    border-left: 1px solid #d9d9d9;
+}
+.q-header-platform strong{
+    color: rgba(0,0,0,0.65);
+    font-weight: normal;
+}
+.q-header-logout .ant-btn-background-ghost{
+    color: rgba(0,0,0,0.65);
+}
+.q-header-logout .ant-btn-background-ghost:hover{
+    color: #108ee9;
+}
+.q-header-logo, .q-header-logout{
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: flex-end;
+}
+
+
